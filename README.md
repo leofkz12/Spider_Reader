@@ -66,4 +66,4 @@ Indicação do tipo de licença do projeto (ex.: MIT License), informando se o c
 
 👤 Autor / Contato
 
-Seus links de contato (LinkedIn, GitHub ou e-mail) para que recrutadores ou outros desenvolvedores possam te encontrar.
+Seus links de contato (LinkedIn, GitHub ou e-mail) para que recrutadores ou outros desenvolvedores possam te encontrar..
