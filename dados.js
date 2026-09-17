@@ -146,6 +146,102 @@ const hqs = {
       "cap-5": 20
   
     }
+  },
+  "one-piece": {
+    titulo: "One Piece",
+    capa: "assets/capas/one-piece.jpg",
+    genero: "manga",
+    tags: ["ação", "ficção científica", "aventura"],
+    lancamento: "22/07/1997",
+    resumo: "Monkey D. Luffy parte em uma grande aventura pelos mares em busca do lendário tesouro One Piece. Ao lado de sua tripulação, ele enfrenta piratas, governos e inimigos poderosos enquanto busca realizar seu sonho de se tornar o Rei dos Piratas.",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
+  },
+  "naruto": {
+    titulo: "Naruto",
+    capa: "assets/capas/naruto.jpg",
+    genero: "manga",
+    tags: ["ação", "ficção científica", "aventura"],
+    lancamento: "21/09/1999",
+    resumo: "Naruto Uzumaki é um jovem ninja que carrega dentro de si uma poderosa criatura chamada Raposa de Nove Caudas. Determinado a conquistar o respeito de sua vila e se tornar Hokage, ele enfrenta diversos desafios enquanto cresce ao lado de seus companheiros e rivais..",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
+  },
+  "dragon-ball": {
+    titulo: "Dragon Ball Super (Super Hero) ",
+    capa: "assets/capas/dragon-ball.jpg",
+    genero: "manga",
+    tags: ["ação", "ficção científica", "aventura"],
+    lancamento: "21/12/2022",
+    resumo: "Após os acontecimentos do arco de Granolah, Goten e Trunks assumem o papel de heróis e passam a proteger sua cidade. Enquanto isso, uma nova ameaça surge com a Red Ribbon Army e os androides Gamma 1 e Gamma 2. A história então conduz aos acontecimentos de Dragon Ball Super: Super Hero, culminando no confronto contra o poderoso Cell Max e no despertar de novas formas de Gohan e Piccolo. .",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
+  },
+  "my-hero-academia": {
+    titulo: "My Hero Academia ",
+    capa: "assets/capas/my-hero-academia.jpg",
+    genero: "manga",
+    tags: ["ação", "ficção científica", "aventura"],
+    lancamento: "07/07/2014",
+    resumo: "Em um mundo onde a maioria das pessoas possui superpoderes, Izuku Midoriya nasceu sem nenhuma habilidade especial, mas nunca abandonou o sonho de se tornar um herói. Após conhecer seu maior ídolo, ele recebe uma oportunidade que pode mudar sua vida e passa a estudar na prestigiada U.A., enfrentando desafios, vilões e descobrindo o verdadeiro significado de ser um herói. .",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
+  },
+  "venom-nf": {
+    titulo: "Venom (2021)",
+    capa: "assets/capas/venom-nf.jpg",
+    genero: "hq",
+    tags: ["ação", "ficção científica", "crime"],
+    lancamento: "01/10/2021",
+    resumo: "Eddie Brock e seu filho, Dylan, enfrentam uma nova e perigosa fase na história do simbionte Venom. Enquanto a relação entre Dylan e o simbionte se transforma, Eddie é levado a uma realidade muito maior e misteriosa, envolvendo a complexa sociedade dos simbiontes e ameaças que vão muito além da Terra.",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
+  },
+  "iron-man": {
+    titulo: "Tony Stark: Iron Man ",
+    capa: "assets/capas/iron-man.jpg",
+    genero: "manga",
+    tags: ["ação", "ficção científica", "aventura"],
+    lancamento: "01/08/2018",
+    resumo: "Tony Stark retorna com uma nova geração de tecnologias e enfrenta os desafios de transformar suas ideias em realidade. Ao criar o eScape, um mundo virtual revolucionário, Stark acaba descobrindo que sua própria tecnologia pode ser usada contra ele, colocando sua empresa, sua identidade e seu futuro em risco.",
+    capitulos: {
+      "cap-1": 25,
+      "cap-2": 20,
+      "cap-3": 20,
+      "cap-4": 20,
+      "cap-5": 20
+
+    }
   }
 
   // Adicione novas HQs/mangás aqui embaixo, seguindo o mesmo modelo.
