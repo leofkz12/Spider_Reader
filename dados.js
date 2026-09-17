@@ -169,7 +169,7 @@ const hqs = {
     genero: "manga",
     tags: ["ação", "ficção científica", "aventura"],
     lancamento: "21/09/1999",
-    resumo: "Naruto Uzumaki é um jovem ninja que carrega dentro de si uma poderosa criatura chamada Raposa de Nove Caudas. Determinado a conquistar o respeito de sua vila e se tornar Hokage, ele enfrenta diversos desafios enquanto cresce ao lado de seus companheiros e rivais..",
+    resumo: " Naruto Uzumaki é um jovem ninja que carrega dentro de si uma poderosa criatura chamada Raposa de Nove Caudas. Determinado a conquistar o respeito de sua vila e se tornar Hokage, ele enfrenta diversos desafios enquanto cresce ao lado de seus companheiros e rivais..",
     capitulos: {
       "cap-1": 25,
       "cap-2": 20,
