@@ -55,6 +55,94 @@ html[data-tema="azul"] {
   --texto-acento: #ffffff;
 }
 
+html[data-tema="laranja"] {
+  --red-core: #ff8c1a;
+  --red-soft: #ffab4d;
+  --red-deep: #7a3d00;
+  --red-shadow: #2b1500;
+  --acc-rgb: 255, 140, 26;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="verde"] {
+  --red-core: #1f8a4c;
+  --red-soft: #4dbb7a;
+  --red-deep: #0a3d1f;
+  --red-shadow: #041a0d;
+  --acc-rgb: 31, 138, 76;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="roxo-azul"] {
+  --bg-void: #0d0c6a; /* fallback sólido, caso algo use só a cor */
+  --red-core: #8b5cf6;
+  --red-soft: #b794f6;
+  --red-deep: #1e2a78;
+  --red-shadow: #0a0f30;
+  --acc-rgb: 139, 92, 246;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="roxo-azul"] body {
+  background: linear-gradient(135deg, #0d0c6a 0%, #3d0b74 22%, #9b0070 48%, #8a0033 72%, #4a0102 100%);
+}
+
+/* Homem-Aranha: vermelho clássico do traje + azul do uniforme */
+html[data-tema="homem-aranha"] {
+  --bg-void: #050a26;
+  --red-core: #ed1c24;
+  --red-soft: #ff5b52;
+  --red-deep: #142d7a;
+  --red-shadow: #050a26;
+  --acc-rgb: 237, 28, 36;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="homem-aranha"] body {
+  background: linear-gradient(135deg, #ed1c24 0%, #8a1050 45%, #142d7a 100%);
+}
+
+html[data-tema="homem-aranha"] .teia-bg {
+  opacity: 0.35;
+}
+
+/* Goku Ultra Instinto: laranja do gi + prateado/azul da aura */
+html[data-tema="goku-ui"] {
+  --bg-void: #0b1a2b;
+  --red-core: #ff8c1a;
+  --red-soft: #ffd9a0;
+  --red-deep: #3a6ea5;
+  --red-shadow: #0b1a2b;
+  --acc-rgb: 255, 140, 26;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="goku-ui"] body {
+  background: linear-gradient(135deg, #ff8c1a 0%, #c7d6e8 40%, #4a6fa5 70%, #0b1a2b 100%);
+}
+
+html[data-tema="goku-ui"] .teia-bg {
+  opacity: 0.3;
+}
+/* Venom: simbionte preto com veias/brilho vermelho sangue */
+html[data-tema="venom"] {
+  --bg-void: #000000;
+  --red-core: #c1121f;
+  --red-soft: #ff1f3d;
+  --red-deep: #1a1a1a;
+  --red-shadow: #000000;
+  --acc-rgb: 193, 18, 31;
+  --texto-acento: #ffffff;
+}
+
+html[data-tema="venom"] body {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 30%, #8a0000 55%, #000000 100%);
+}
+
+html[data-tema="venom"] .teia-bg {
+  opacity: 0.25;
+}
+
 * {
   margin: 0;
   padding: 0;

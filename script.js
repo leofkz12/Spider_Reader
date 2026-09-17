@@ -49,7 +49,13 @@ const TEMAS = [
   { id: "preto", nome: "Preto", cor: "#333333" },
   { id: "branco", nome: "Branco", cor: "#f2f2f2" },
   { id: "rosa", nome: "Rosa", cor: "#ff4d9e" },
-  { id: "azul", nome: "Azul escuro", cor: "#3b6bff" }
+  { id: "azul", nome: "Azul escuro", cor: "#3b6bff" },
+  { id: "laranja", nome: "Laranja", cor: "#ff8c1a" },
+  { id: "verde", nome: "Verde escuro", cor: "#1f8a4c" },
+  { id: "roxo-azul", nome: "Roxo & Azul", cor: "linear-gradient(135deg, #8b5cf6, #1e2a78)" },
+  { id: "homem-aranha", nome: "Homem-Aranha", cor: "linear-gradient(135deg, #ff1e27, #142d7a)" },
+  { id: "goku-ui", nome: "Goku Ultra Instinto", cor: "linear-gradient(135deg, #ff8c1a, #4a6fa5)" },
+  { id: "venom", nome: "Venom", cor: "linear-gradient(135deg, #8a0000, #000000)" } 
 ];
 
 function obterTemaSalvo() {
