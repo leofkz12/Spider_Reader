@@ -163,13 +163,13 @@ const hqs = {
 
     }
   },
-  "naruto": {
-    titulo: "Naruto",
-    capa: "assets/capas/naruto.jpg",
+  "kimetsu": {
+    titulo: "Kimetsu No Yaiba",
+    capa: "assets/capas/kimetsu.jpg",
     genero: "manga",
-    tags: ["ação", "ficção científica", "aventura"],
-    lancamento: "21/09/1999",
-    resumo: " Naruto Uzumaki é um jovem ninja que carrega dentro de si uma poderosa criatura chamada Raposa de Nove Caudas. Determinado a conquistar o respeito de sua vila e se tornar Hokage, ele enfrenta diversos desafios enquanto cresce ao lado de seus companheiros e rivais..",
+    tags: ["ação", "ficção científica", "aventura", "crime"],
+    lancamento: "15/02/2016",
+    resumo: "A história se passa no Japão da Era Taishō (1912-1926) e acompanha Tanjirō Kamado, um jovem vendedor de carvão que, após descobrir que sua família foi massacrada por demônios, embarca em uma jornada para se tornar um caçador de demônios.  Seu objetivo principal é encontrar uma cura para sua irmã mais nova, Nezuko, a única sobrevivente do ataque, que foi transformada em um oni mas ainda mantém traços humanos.",
     capitulos: {
       "cap-1": 25,
       "cap-2": 20,
