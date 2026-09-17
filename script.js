@@ -55,7 +55,8 @@ const TEMAS = [
   { id: "roxo-azul", nome: "Roxo & Azul", cor: "linear-gradient(135deg, #8b5cf6, #1e2a78)" },
   { id: "homem-aranha", nome: "Homem-Aranha", cor: "linear-gradient(135deg, #ff1e27, #142d7a)" },
   { id: "goku-ui", nome: "Goku Ultra Instinto", cor: "linear-gradient(135deg, #ff8c1a, #4a6fa5)" },
-  { id: "venom", nome: "Venom", cor: "linear-gradient(135deg, #8a0000, #000000)" } 
+  { id: "venom", nome: "Venom", cor: "linear-gradient(135deg, #8a0000, #000000)" },
+  
 ];
 
 function obterTemaSalvo() {
@@ -303,15 +304,23 @@ function contarNaoLidos(chaveHQ) {
 // também tem uma cor própria, usada na moldura e no nome do usuário.
 // ==========================================
 const NIVEIS_LEITURA = [
-  { id: "novato", nome: "Novato", cor: "#9e9e9e", paginas: 0, moldura: "assets/molduras/novato.png", descricao: "Nível inicial. Toda jornada começa aqui." },
-  { id: "intermediario", nome: "Intermediário", cor: "#4caf50", paginas: 50, moldura: "assets/molduras/intermediario.png", descricao: "Leia 50 páginas para desbloquear." },
-  { id: "veterano", nome: "Veterano", cor: "#2196f3", paginas: 150, moldura: "assets/molduras/veterano.png", descricao: "Leia 150 páginas para desbloquear." },
-  { id: "pro", nome: "Pro", cor: "#9c27b0", paginas: 300, moldura: "assets/molduras/pro.png", descricao: "Leia 300 páginas para desbloquear." },
-  { id: "master", nome: "Master", cor: "#ff9800", paginas: 500, moldura: "assets/molduras/master.png", descricao: "Leia 500 páginas para desbloquear." },
-  { id: "supremo", nome: "Supremo", cor: "#e53935", paginas: 800, moldura: "assets/molduras/supremo.png", descricao: "Leia 800 páginas para desbloquear." },
-  { id: "ultimate", nome: "Ultimate", cor: "#00e5ff", paginas: 1200, moldura: "assets/molduras/ultimate.png", descricao: "Leia 1200 páginas para desbloquear." },
-  { id: "divindade", nome: "Divindade", cor: "#ffd700", paginas: 1800, moldura: "assets/molduras/divindade.png", descricao: "Leia 1800 páginas para desbloquear." },
-  { id: "godless", nome: "Godless", cor: "#ff1e27", paginas: 2500, moldura: "assets/molduras/godless.png", descricao: "Leia 2500 páginas para desbloquear." }
+  { id: "Novato", nome: "Novato", cor: "#9e9e9e", paginas: 0, moldura: "assets/molduras/novato.png", descricao: "Nível inicial. Toda jornada começa aqui." },
+  { id: "Intermediario", nome: "Intermediário", cor: "#4caf50", paginas: 50, moldura: "assets/molduras/intermediario.png", descricao: "Leia 50 páginas para desbloquear." },
+  { id: "Veterano", nome: "Veterano", cor: "#2196f3", paginas: 150, moldura: "assets/molduras/veterano.png", descricao: "Leia 150 páginas para desbloquear." },
+  { id: "Pro", nome: "Pro", cor: "#9c27b0", paginas: 300, moldura: "assets/molduras/pro.png", descricao: "Leia 300 páginas para desbloquear." },
+  { id: "Master", nome: "Master", cor: "#ff9800", paginas: 500, moldura: "assets/molduras/master.png", descricao: "Leia 500 páginas para desbloquear." },
+  { id: "Supremo", nome: "Supremo", cor: "#e53935", paginas: 800, moldura: "assets/molduras/supremo.png", descricao: "Leia 800 páginas para desbloquear." },
+  { id: "Ultimate", nome: "Ultimate", cor: "#00e5ff", paginas: 1200, moldura: "assets/molduras/ultimate.png", descricao: "Leia 1200 páginas para desbloquear." },
+  { id: "Divindade", nome: "Divindade", cor: "#ffd700", paginas: 1800, moldura: "assets/molduras/divindade.png", descricao: "Leia 1800 páginas para desbloquear." },
+  { id: "Godless", nome: "Godless", cor: "#ff1e27", paginas: 2500, moldura: "assets/molduras/godless.png", descricao: "Leia 2500 páginas para desbloquear." },
+  { id: "DragonBall", nome: "shenlong", cor: "#fdcf00", paginas: 3500, moldura: "assets/molduras/shenlong.png", descricao: "Leia 3500 páginas para desbloquear." },
+  { id: "Ghost-Spider", nome: "Ghost-Spider", cor: "rgb(248, 242, 248)", paginas: 3500, moldura: "assets/molduras/Ghost-Spider.png", descricao: "Leia 3500 páginas para desbloquear." },
+  { id: "Venom", nome: "Simbionte", cor: "rgb(7, 6, 7)", paginas: 3500, moldura: "assets/molduras/Venom.png", descricao: "Leia 3500 páginas para desbloquear." },
+  { id: "Miranha", nome: "Aracnídeo", cor: "rgb(238, 5, 5)", paginas: 3500, moldura: "assets/molduras/Miranha.png", descricao: "Leia 3500 páginas para desbloquear." },
+  { id: "DekuDark", nome: "OneHero", cor: "rgb(2, 94, 7)", paginas: 3500, moldura: "assets/molduras/DekuDark.png", descricao: "Leia 3500 páginas para desbloquear." },
+  { id: "Zoro", nome: "Santōryū", cor: "rgb(2, 92, 10)", paginas: 3500, moldura: "assets/molduras/Zoro.png", descricao: "Leia 3500 páginas para desbloquear." },
+
+
 ];
 
 function obterPaginasLidas() {
